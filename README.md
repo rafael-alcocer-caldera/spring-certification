@@ -1,6 +1,46 @@
 # 🛠 🚀 Spring Certification 🚀 🛠 
 Exercises for Spring Certified Professional
 
+## ✅ Spring AOP ✅
+Here is an example of applying AOP.
+
+##### Join Point
+A point in the execution of a program like a method call or exception thrown
+
+##### Pointcut
+The expression that selects the Join Point 
+
+For selecting where to apply the advice
+
+##### Advice
+The code to be executed
+
+##### Aspect
+The encapsulation of the Pointcut & Advice. The What and the Where.
+
+##### Weaving
+The technique where the aspect and the target are merged
+
+##### Proxy
+When someone stands in place of someone else
+
+##### Spring Proxy
+When an enhanced class stands in place of your original
+
+#### Flow
+
+```log
+1. Spring creates a Proxy, weaving aspect & target
+
+2. Proxy implements target interface
+
+3. All calls are routed to Proxy interceptor
+
+4. Matching advice is executed
+
+5. If there are no exceptions thrown, target method is executed
+```
+
 ## ✅ Spring NoUniqueBeanDefinitionException ✅
 In the Spring Framework Essentials Course at Broadcom Spring Academy
 
