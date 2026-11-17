@@ -22,11 +22,6 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.zaxxer</groupId>
-			<artifactId>HikariCP</artifactId>
-			<version>5.1.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -45,6 +40,7 @@
 	
 	<modules>
 	    <module>spring-aop</module>
+	    <module>spring-jdbc</module>
 	    <module>spring-no-unique-bean-definition-exception</module>
 	</modules>
 </project>

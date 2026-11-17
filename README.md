@@ -9,3 +9,9 @@ Exercises for Spring Certified Professional
 ## ✅ Spring NoUniqueBeanDefinitionException ✅
 
 * [Spring NoUniqueBeanDefinitionException](./spring-no-unique-bean-definition-exception/README.md)
+
+
+## ✅ Spring JDBC ✅
+
+* [Spring JDBC](./spring-jdbc/README.md)
+
