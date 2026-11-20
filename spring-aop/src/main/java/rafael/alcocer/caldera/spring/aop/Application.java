@@ -21,7 +21,7 @@ import rafael.alcocer.caldera.spring.aop.business.logic.Cache;
 import rafael.alcocer.caldera.spring.aop.business.logic.Message;
 import rafael.alcocer.caldera.spring.aop.config.AppConfig;
 
-public class Appllcation {
+public class Application {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);

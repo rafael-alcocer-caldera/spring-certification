@@ -15,3 +15,7 @@ Exercises for Spring Certified Professional
 
 * [Spring JDBC](./spring-jdbc/README.md)
 
+
+## ✅ Spring Bean Container Lifecycle ✅
+
+* [Spring Bean Container Lifecycle](./spring-bean-container-lifecycle/README.md)

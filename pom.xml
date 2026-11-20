@@ -42,5 +42,6 @@
 	    <module>spring-aop</module>
 	    <module>spring-jdbc</module>
 	    <module>spring-no-unique-bean-definition-exception</module>
+	    <module>spring-bean-container-lifecycle</module>
 	</modules>
 </project>
