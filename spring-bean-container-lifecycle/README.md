@@ -100,7 +100,7 @@ BeanFactoryPostProcessor:
 
 > **If BeanFactoryPostProcessor is implemented**
 >
-> **It has to be an Spring Managed Bean**
+> **It has to be a Spring Managed Bean**
 
 
 ### ✅ Implementation using Java-Based Configuration ✅
@@ -345,7 +345,7 @@ Object postProcessBeforeInitialization(Object bean, String beanName);
 ### ✅ The Initializer Extension Point ✅
 - Special case of a bean post-processing
   - Causes initialization methods to be called
-    - Such as @PostContruct, InitializingBean.afterPropertiesSet(), @Bean(initMethod=...)
+    - Such as @PostConstruct, InitializingBean.afterPropertiesSet(), @Bean(initMethod=...)
     
 - Internally Spring uses several initializers BPPs (Bean Post Processors)
   - Example: CommonAnnotationBeanPostProcessor enables @PostConstruct, @Resource...
